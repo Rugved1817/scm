@@ -4,7 +4,7 @@ def pass1(source_lines):
     symbol_table = {}
     literal_table = []
     pool_table = []
-    location_counter = 2
+    location_counter = 4
     processed_lines = []
     
     for line in source_lines:
